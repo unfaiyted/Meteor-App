@@ -1,0 +1,28 @@
+<head>
+  <title>Test-app</title>
+</head>
+
+<body>
+  <h1>Welcome to TestLAND</h1>
+
+
+  {{> loginButtons}}
+
+
+  {{#if currentUser}}
+
+
+      {{> hello}}
+
+
+  {{/if}}
+
+</body>
+
+
+
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>

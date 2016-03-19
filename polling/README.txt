@@ -1,0 +1,4 @@
+client/: The client folder is for files that will only be served to the client. Any CSS and JS files in this folder will be automatically bundled and sent to the browser.
+server/: The folder for all your server side code. Store sensitive logic or data that a client shouldn’t see.
+public/: By default, Meteor will find the CSS and JS files in your project and bundle them together. Anything in this public folder will be not be bundled by Meteor and will be served directly to the client as-is. If you have an image at public/images/underwater-dogs.jpg, then you can reference that file from HTML using <img src="images/underwater-dogs.jpg">.
+private/: These files are only accessed by the serv
